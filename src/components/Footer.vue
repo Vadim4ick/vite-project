@@ -1,14 +1,14 @@
 <template>
-  <footer class="bg-white pb-[20px] pt-[40px]">
+  <footer class="bg-mainColor">
     <div class="mx-auto max-w-[750px] px-4">
-      <div>
-        <p class="text-center">Stay Tuned.</p>
+      <div class="pb-[20px] pt-[40px]">
+        <p class="text-center text-white">Stay Tuned.</p>
 
         <form class="flex h-[75px] w-full pt-6">
           <input
             type="text"
             placeholder="EMAIL ADDRESS"
-            class="w-full border-b border-gray-400 text-[20px] tracking-[3px]"
+            class="tablet:text-[20px] w-full border-b border-gray-400 pl-2 tracking-[3px]"
           />
 
           <button class="w-[140px] bg-black text-[14px] text-white">
@@ -16,13 +16,17 @@
           </button>
         </form>
 
-        <div class="flex items-center justify-center gap-5 pt-[90px]">
+        <div
+          class="tablet:pt-[90px] max-tablet:pt-[45px] flex items-center justify-center gap-5"
+        >
           <a href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               width="24px"
               height="24px"
+              fill="currentColor"
+              class="text-white"
             >
               <path
                 d="M 8 3 C 5.2 3 3 5.2 3 8 L 3 16 C 3 18.8 5.2 21 8 21 L 16 21 C 18.8 21 21 18.8 21 16 L 21 8 C 21 5.2 18.8 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.7 5 19 6.3 19 8 L 19 16 C 19 17.7 17.7 19 16 19 L 8 19 C 6.3 19 5 17.7 5 16 L 5 8 C 5 6.3 6.3 5 8 5 z M 17 6 C 16.4 6 16 6.4 16 7 C 16 7.6 16.4 8 17 8 C 17.6 8 18 7.6 18 7 C 18 6.4 17.6 6 17 6 z M 12 7 C 9.2 7 7 9.2 7 12 C 7 14.8 9.2 17 12 17 C 14.8 17 17 14.8 17 12 C 17 9.2 14.8 7 12 7 z M 12 9 C 13.7 9 15 10.3 15 12 C 15 13.7 13.7 15 12 15 C 10.3 15 9 13.7 9 12 C 9 10.3 10.3 9 12 9 z"
@@ -34,6 +38,8 @@
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
               width="27px"
+              fill="currentColor"
+              class="text-white"
               height="27px"
             >
               <path
@@ -45,11 +51,12 @@
 
           <a href="/">
             <svg
-              fill="#000000"
               height="24px"
               width="24px"
               viewBox="0 0 75.294 75.294"
               xml:space="preserve"
+              fill="currentColor"
+              class="text-white"
             >
               <g>
                 <path
@@ -58,6 +65,22 @@
               </g>
             </svg>
           </a>
+        </div>
+      </div>
+
+      <div
+        class="max-tablet:flex-col tablet:h-[50px] max-tablet:pb-4 tablet:gap-2 max-tablet:gap-4 flex items-center justify-between text-[14px] text-white"
+      >
+        <div class="flex gap-[20px]">
+          <span class="uppercase">T&S</span>
+          <span class="uppercase">REFUND POLICY</span>
+        </div>
+
+        <span>© 2024 VOLK | ALL RIGHTS RESERVED</span>
+
+        <div class="flex gap-[20px]">
+          <span>PRIVACY POLICY</span>
+          <span>REVIEWS</span>
         </div>
       </div>
     </div>

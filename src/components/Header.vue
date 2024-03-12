@@ -6,10 +6,11 @@
           <img src="/img/logo.png" srcset="/img/logo@2x.png 2x"
         /></router-link>
 
-        <Burger />
+        <Burger :show="show" @update:show="show = $event" />
 
         <div
-          class="max-largeDesktop:hidden flex w-full max-w-[1000px] justify-between"
+          :class="show ? 'visible' : 'hidden'"
+          class="flex w-full max-w-[1000px] justify-between"
         >
           <nav>
             <ul class="flex gap-6">
@@ -49,6 +50,7 @@
     data() {
       return {
         navList: navList,
+        show: false,
       };
     },
 
