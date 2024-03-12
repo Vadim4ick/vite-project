@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Kyiv";
+  src:
+    url("/font/KyivTypeSerif-Light.woff2") format("woff2"),
+    url("KyivTypeSerif-Light.woff") format("woff");
+
+  font-weight: 300;
+}
+
+body {
+  background-color: rgb(244, 239, 233);
+  color: rgb(50, 74, 117);
+
+  font-family: "Montserrat";
+}
+
+input:focus {
+  outline: none;
+}
+
+.test {
+  display: flex;
+  overflow: hidden;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
