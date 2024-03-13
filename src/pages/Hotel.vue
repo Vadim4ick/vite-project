@@ -67,110 +67,302 @@
       </div>
     </div>
 
+    <!-- TABS SLIDES -->
     <div class="pt-[30px]">
       <div
-        class="mx-auto flex max-w-[335px] justify-between gap-2 pb-[30px] text-[18px] font-semibold"
+        class="mx-auto flex max-w-[365px] justify-between gap-2 px-4 pb-[30px] text-[18px] font-semibold"
       >
-        <button class="uppercase">Hotels</button>
-        <button class="uppercase">Villas</button>
-        <button class="uppercase">Boats</button>
+        <button
+          class="uppercase"
+          v-for="(tab, index) in tabs"
+          :key="index"
+          @click="currentTab = tab"
+        >
+          {{ tab }}
+        </button>
       </div>
 
       <div class="mx-auto max-w-[1280px]">
-        <swiper
-          :breakpoints="{
-            320: {
-              slidesPerView: 2.2,
-              spaceBetween: 20,
-            },
-            460: {
-              slidesPerView: 2.6,
-              spaceBetween: 20,
-            },
-            550: {
-              slidesPerView: 3,
-              spaceBetween: 20,
-            },
-            768: {
-              slidesPerView: 4,
-              spaceBetween: 20,
-            },
+        <div v-if="currentTab === 'Hotels'">
+          <swiper
+            :breakpoints="{
+              320: {
+                slidesPerView: 2.2,
+                spaceBetween: 20,
+              },
+              460: {
+                slidesPerView: 2.6,
+                spaceBetween: 20,
+              },
+              550: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+              },
 
-            991: {
-              slidesPerView: 6,
-              spaceBetween: 20,
-            },
-          }"
-        >
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-          <swiper-slide>
-            <img
-              class="h-[200px] w-[200px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
-          </swiper-slide>
-        </swiper>
+              991: {
+                slidesPerView: 6,
+                spaceBetween: 20,
+              },
+            }"
+          >
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+          </swiper>
+        </div>
+
+        <div v-else-if="currentTab === 'Villas'">
+          <swiper
+            :breakpoints="{
+              320: {
+                slidesPerView: 2.2,
+                spaceBetween: 20,
+              },
+              460: {
+                slidesPerView: 2.6,
+                spaceBetween: 20,
+              },
+              550: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+              },
+
+              991: {
+                slidesPerView: 6,
+                spaceBetween: 20,
+              },
+            }"
+          >
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+          </swiper>
+        </div>
+
+        <div v-else-if="currentTab === 'Boats'">
+          <swiper
+            :breakpoints="{
+              320: {
+                slidesPerView: 2.2,
+                spaceBetween: 20,
+              },
+              460: {
+                slidesPerView: 2.6,
+                spaceBetween: 20,
+              },
+              550: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+              },
+
+              991: {
+                slidesPerView: 6,
+                spaceBetween: 20,
+              },
+            }"
+          >
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="h-[200px] w-[200px] object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+          </swiper>
+        </div>
       </div>
     </div>
+    <!-- /TABS SLIDES -->
   </section>
 
-  <!--
   <section class="pb-[120px]">
     <h3
       class="text-center font-[500] uppercase max-tablet:text-[25px] tablet:text-[35px]"
@@ -181,40 +373,44 @@
     <div
       class="mx-auto flex max-w-[747px] flex-col items-center px-4 pt-[45px]"
     >
-      <p>
+      <p class="text-center tablet:uppercase">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         <b>10000</b> laboriosam.
       </p>
 
       <ul class="pb-[40px] pt-[30px]">
         <li>
-          <p class="text-center"><b>Lorem, ipsum.</b></p>
+          <p class="text-center tablet:uppercase"><b>Lorem, ipsum.</b></p>
         </li>
         <li>
-          <p class="text-center"><b>Lorem, ipsum.</b></p>
+          <p class="text-center tablet:uppercase"><b>Lorem, ipsum.</b></p>
         </li>
         <li>
-          <p class="text-center"><b>Lorem ipsum dolor sit amet.</b></p>
+          <p class="text-center tablet:uppercase">
+            <b>Lorem ipsum dolor sit amet.</b>
+          </p>
         </li>
         <li>
-          <p class="text-center">
+          <p class="text-center tablet:uppercase">
             <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
           </p>
         </li>
       </ul>
 
       <div class="flex flex-col gap-[20px]">
-        <p class="text-center">
+        <p class="text-center tablet:uppercase">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
           natus sequi distinctio quae, exercitationem soluta!
         </p>
 
-        <p class="text-center"><b>Lorem ipsum dolor sit amet.</b></p>
+        <p class="text-center tablet:uppercase">
+          <b>Lorem ipsum dolor sit amet.</b>
+        </p>
       </div>
     </div>
   </section>
 
-  <section class="pb-[200px]">
+  <section class="max-tablet:pb-[120px] tablet:pb-[200px]">
     <div class="mx-auto max-w-[680px]">
       <h3
         class="text-center font-[500] uppercase max-tablet:text-[25px] tablet:text-[35px]"
@@ -224,11 +420,13 @@
     </div>
 
     <div
-      class="hotelTravel mx-auto flex max-w-[1210px] flex-col gap-[100px] px-4 pt-[50px]"
+      class="hotelTravel mx-auto flex max-w-[1210px] flex-col px-4 pt-[50px] max-tablet:gap-[50px] tablet:gap-[100px]"
     >
-      <article class="gap-[45px]">
+      <article
+        class="laptop:grid-cols-travelPopular laptop:even:grid-cols-travelPopularReverse max-laptop:grid-cols-travelPopularTablet max-laptop:even:grid-cols-travelPopularReverseTablet grid max-laptop:gap-[25px] max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:gap-[45px]"
+      >
         <swiper
-          class="hotelSwiper w-full"
+          class="hotelSwiper w-full max-w-[485px]"
           :breakpoints="{
             320: {
               slidesPerView: 1,
@@ -237,47 +435,39 @@
           }"
         >
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
         </swiper>
 
         <div
           class="hotelContent flex w-full flex-col items-center justify-center gap-[15px] text-[14px]"
         >
-          <p class="text-center">Lorem ipsum dolor sit amet.</p>
+          <p class="text-center tablet:uppercase">
+            Lorem ipsum dolor sit amet.
+          </p>
 
-          <p class="text-center">
+          <p class="text-center tablet:uppercase">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
             aut consectetur veritatis molestias nostrum asperiores ex sit enim
             ducimus voluptatibus? Nulla, rem quod blanditiis incidunt aliquid
             quisquam.
           </p>
 
-          <button class="text-[17px] font-semibold">BOOK NOW</button>
+          <button class="text-[17px] font-semibold uppercase">BOOK NOW</button>
         </div>
       </article>
 
-      <article class="gap-[45px]">
+      <article
+        class="laptop:grid-cols-travelPopular laptop:even:grid-cols-travelPopularReverse max-laptop:grid-cols-travelPopularTablet max-laptop:even:grid-cols-travelPopularReverseTablet grid max-laptop:gap-[25px] max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:gap-[45px]"
+      >
         <swiper
-          class="hotelSwiper w-full"
+          class="hotelSwiper w-full max-w-[485px]"
           :breakpoints="{
             320: {
               slidesPerView: 1,
@@ -286,47 +476,39 @@
           }"
         >
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
         </swiper>
 
         <div
           class="hotelContent flex w-full flex-col items-center justify-center gap-[15px] text-[14px]"
         >
-          <p class="text-center">Lorem ipsum dolor sit amet.</p>
+          <p class="text-center tablet:uppercase">
+            Lorem ipsum dolor sit amet.
+          </p>
 
-          <p class="text-center">
+          <p class="text-center tablet:uppercase">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
             aut consectetur veritatis molestias nostrum asperiores ex sit enim
             ducimus voluptatibus? Nulla, rem quod blanditiis incidunt aliquid
             quisquam.
           </p>
 
-          <button class="text-[17px] font-semibold">BOOK NOW</button>
+          <button class="text-[17px] font-semibold uppercase">BOOK NOW</button>
         </div>
       </article>
 
-      <article class="gap-[45px]">
+      <article
+        class="laptop:grid-cols-travelPopular laptop:even:grid-cols-travelPopularReverse max-laptop:grid-cols-travelPopularTablet max-laptop:even:grid-cols-travelPopularReverseTablet grid max-laptop:gap-[25px] max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:gap-[45px]"
+      >
         <swiper
-          class="hotelSwiper w-full"
+          class="hotelSwiper w-full max-w-[485px]"
           :breakpoints="{
             320: {
               slidesPerView: 1,
@@ -335,47 +517,39 @@
           }"
         >
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
         </swiper>
 
         <div
           class="hotelContent flex w-full flex-col items-center justify-center gap-[15px] text-[14px]"
         >
-          <p class="text-center">Lorem ipsum dolor sit amet.</p>
+          <p class="text-center tablet:uppercase">
+            Lorem ipsum dolor sit amet.
+          </p>
 
-          <p class="text-center">
+          <p class="text-center tablet:uppercase">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
             aut consectetur veritatis molestias nostrum asperiores ex sit enim
             ducimus voluptatibus? Nulla, rem quod blanditiis incidunt aliquid
             quisquam.
           </p>
 
-          <button class="text-[17px] font-semibold">BOOK NOW</button>
+          <button class="text-[17px] font-semibold uppercase">BOOK NOW</button>
         </div>
       </article>
 
-      <article class="gap-[45px]">
+      <article
+        class="laptop:grid-cols-travelPopular laptop:even:grid-cols-travelPopularReverse max-laptop:grid-cols-travelPopularTablet max-laptop:even:grid-cols-travelPopularReverseTablet grid max-laptop:gap-[25px] max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:gap-[45px]"
+      >
         <swiper
-          class="hotelSwiper w-full"
+          class="hotelSwiper w-full max-w-[485px]"
           :breakpoints="{
             320: {
               slidesPerView: 1,
@@ -384,41 +558,31 @@
           }"
         >
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img
-              class="w-[485px] object-cover"
-              src="/img/ourService.png"
-              alt=""
-            />
+            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
           </swiper-slide>
         </swiper>
 
         <div
           class="hotelContent flex w-full flex-col items-center justify-center gap-[15px] text-[14px]"
         >
-          <p class="text-center">Lorem ipsum dolor sit amet.</p>
+          <p class="text-center tablet:uppercase">
+            Lorem ipsum dolor sit amet.
+          </p>
 
-          <p class="text-center">
+          <p class="text-center tablet:uppercase">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
             aut consectetur veritatis molestias nostrum asperiores ex sit enim
             ducimus voluptatibus? Nulla, rem quod blanditiis incidunt aliquid
             quisquam.
           </p>
 
-          <button class="text-[17px] font-semibold">BOOK NOW</button>
+          <button class="text-[17px] font-semibold uppercase">BOOK NOW</button>
         </div>
       </article>
     </div>
@@ -426,30 +590,32 @@
 
   <section class="pb-[40px]">
     <div class="mx-auto flex max-w-[1230px] flex-col items-center px-4">
-      <p>
+      <p class="text-center tablet:uppercase">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         <b>10000</b> laboriosam.
       </p>
 
       <ul class="pb-[40px] pt-[30px]">
         <li>
-          <p class="text-center"><b>Lorem, ipsum.</b></p>
+          <p class="text-center tablet:uppercase"><b>Lorem, ipsum.</b></p>
         </li>
         <li>
-          <p class="text-center"><b>Lorem, ipsum.</b></p>
+          <p class="text-center tablet:uppercase"><b>Lorem, ipsum.</b></p>
         </li>
         <li>
-          <p class="text-center"><b>Lorem ipsum dolor sit amet.</b></p>
+          <p class="text-center tablet:uppercase">
+            <b>Lorem ipsum dolor sit amet.</b>
+          </p>
         </li>
         <li>
-          <p class="text-center">
+          <p class="text-center tablet:uppercase">
             <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
           </p>
         </li>
       </ul>
 
       <div class="flex flex-col gap-[20px]">
-        <p class="text-center">
+        <p class="text-center tablet:uppercase">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
           fugit eius, omnis, aut temporibus amet excepturi porro eaque placeat
           saepe ullam ipsum. Corporis voluptas atque enim, hic maiores facilis
@@ -457,13 +623,15 @@
           saepe?
         </p>
 
-        <p class="text-center">
+        <p class="text-center tablet:uppercase">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
           voluptatum rem ea distinctio dicta, harum quis iure veniam tempora
           nostrum odio illo, dolores reiciendis quo!
         </p>
 
-        <p class="text-center"><b>Lorem ipsum dolor sit amet.</b></p>
+        <p class="text-center tablet:uppercase">
+          <b>Lorem ipsum dolor sit amet.</b>
+        </p>
       </div>
 
       <div class="flex flex-col items-center pt-[35px]">
@@ -474,12 +642,12 @@
           alt="logoService.png"
         />
 
-        <span class="tracking-[0.5px]">LITTLE BLUE DOOR</span>
+        <span class="tracking-[0.5px] tablet:uppercase">LITTLE BLUE DOOR</span>
 
-        <span class="text-[10px]">ELEVATED TRAVEL</span>
+        <span class="text-[10px] tablet:uppercase">ELEVATED TRAVEL</span>
       </div>
     </div>
-  </section> -->
+  </section>
 </template>
 
 <script>
@@ -491,6 +659,13 @@
     components: {
       Swiper,
       SwiperSlide,
+    },
+
+    data() {
+      return {
+        currentTab: "Hotels",
+        tabs: ["Hotels", "Villas", "Boats"],
+      };
     },
   };
 </script>

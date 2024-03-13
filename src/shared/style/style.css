@@ -22,21 +22,11 @@ input:focus {
   outline: none;
 }
 
-.hotelTravel article:nth-child(even) {
-  /* Ваши стили для четных элементов */
-  display: grid;
-  grid-template-columns: 1fr 485px;
-}
-
-.hotelTravel article:nth-child(even) .hotelSwiper {
-  order: 3;
-}
-.hotelTravel article:nth-child(even) .hotelContent {
-  order: 1;
-}
-
-.hotelTravel article:nth-child(odd) {
-  /* Ваши стили для нечетных элементов */
-  display: grid;
-  grid-template-columns: 485px 1fr;
+@media (min-width: 768px) {
+  .hotelTravel article:nth-child(even) .hotelSwiper {
+    order: 3;
+  }
+  .hotelTravel article:nth-child(even) .hotelContent {
+    order: 1;
+  }
 }
