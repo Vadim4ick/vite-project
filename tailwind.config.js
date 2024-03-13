@@ -11,6 +11,14 @@ export default {
       height: {
         headerHeight: "75px",
       },
+      padding: {
+        headerHeight: "75px",
+      },
+
+      gridTemplateColumns: {
+        travelPopular: "485px 1fr",
+        travelPopularReverse: "1fr 485px",
+      },
 
       fontFamily: {
         montserrat: ["Montserrat"],

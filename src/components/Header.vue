@@ -1,5 +1,10 @@
 <template>
-  <header>
+  <header
+    :class="{
+      'min-h-screen': show,
+    }"
+    class="fixed z-10 w-full bg-bg"
+  >
     <div class="mx-auto max-w-[1360px] px-[16px]">
       <div class="flex h-headerHeight items-center justify-between gap-6">
         <router-link to="/">
@@ -9,18 +14,29 @@
         <Burger :show="show" @update:show="show = $event" />
 
         <div
-          :class="show ? 'visible' : 'hidden'"
-          class="flex w-full max-w-[1000px] justify-between"
+          :class="{
+            'max-largeDesktop:pt-headerHeight max-largeDesktop:visible max-largeDesktop:absolute max-largeDesktop:left-1/2 max-largeDesktop:top-[25px]':
+              show,
+            'max-largeDesktop:hidden': !show,
+          }"
+          class="w-full largeDesktop:flex largeDesktop:max-w-[1000px] largeDesktop:justify-between"
         >
           <nav>
-            <ul class="flex gap-6">
+            <ul
+              class="flex max-largeDesktop:inline-flex max-largeDesktop:translate-x-[-50%] max-largeDesktop:flex-col max-largeDesktop:items-center max-largeDesktop:gap-3 largeDesktop:gap-6"
+            >
               <li v-for="(item, index) in navList">
-                <router-link to="/">{{ item }}</router-link>
+                <router-link to="/" class="max-largeDesktop:text-[23px]">{{
+                  item
+                }}</router-link>
               </li>
             </ul>
           </nav>
 
-          <router-link to="" class="flex items-center gap-2">
+          <router-link
+            to=""
+            class="flex items-center gap-2 max-largeDesktop:text-[20px]"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="26"
