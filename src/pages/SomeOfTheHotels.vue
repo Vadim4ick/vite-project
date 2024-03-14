@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-headerHeight pb-[120px] text-black">
+  <section class="pb-[120px] pt-headerHeight text-black">
     <div class="mx-auto max-w-[1150px] px-4">
       <h2
         class="text-center font-semibold uppercase max-tablet:text-[18px] tablet:text-[23px]"
@@ -24,7 +24,7 @@
           <h3 class="pb-5 text-[18px] font-semibold uppercase">Italy</h3>
 
           <div
-            class="grid-cols-someOfTheHotels inline-grid w-full justify-between gap-7"
+            class="inline-grid w-full grid-cols-someOfTheHotels justify-between gap-7"
           >
             <article class="inline-flex flex-col items-center gap-[10px]">
               <img
@@ -117,7 +117,7 @@
           <h3 class="pb-5 text-[18px] font-semibold uppercase">Ispan</h3>
 
           <div
-            class="grid-cols-someOfTheHotels inline-grid w-full justify-between gap-7"
+            class="inline-grid w-full grid-cols-someOfTheHotels justify-between gap-7"
           >
             <article class="inline-flex flex-col items-center gap-[10px]">
               <img

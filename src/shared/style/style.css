@@ -18,8 +18,13 @@ body {
   font-family: "Montserrat";
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   outline: none;
+}
+
+.swiper-button-disabled {
+  opacity: 0.2;
 }
 
 @media (min-width: 768px) {

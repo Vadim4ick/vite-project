@@ -220,6 +220,7 @@
             all together in one place.
           </p>
         </div>
+
         <div
           class="flex w-full flex-col text-center max-tablet:gap-[15px] tablet:gap-[30px] tablet:px-4 tablet:py-2"
         >
@@ -233,6 +234,7 @@
             search of the most coveted hidden gems.
           </p>
         </div>
+
         <div
           class="flex w-full flex-col text-center max-tablet:gap-[15px] tablet:gap-[30px] tablet:px-4 tablet:py-2"
         >
@@ -245,6 +247,7 @@
             after your trip for any travel issues or emergencies
           </p>
         </div>
+
         <div
           class="flex w-full flex-col text-center max-tablet:gap-[15px] tablet:gap-[30px] tablet:px-4 tablet:py-2"
         >
