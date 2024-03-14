@@ -21,6 +21,8 @@ export default {
 
         travelPopularTablet: "385px 1fr",
         travelPopularReverseTablet: "1fr 385px",
+
+        someOfTheHotels: "repeat(auto-fit, minmax(240px, 1fr));",
       },
 
       fontFamily: {
