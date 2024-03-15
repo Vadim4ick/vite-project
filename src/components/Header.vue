@@ -26,9 +26,11 @@
               class="flex max-largeDesktop:flex-col max-largeDesktop:items-center max-largeDesktop:gap-3 largeDesktop:gap-6"
             >
               <li v-for="(item, index) in navList">
-                <router-link to="/" class="max-largeDesktop:text-[23px]">{{
-                  item
-                }}</router-link>
+                <router-link
+                  :to="item.path"
+                  class="max-largeDesktop:text-[23px]"
+                  >{{ item.name }}</router-link
+                >
               </li>
             </ul>
           </nav>

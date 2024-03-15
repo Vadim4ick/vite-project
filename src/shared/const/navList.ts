@@ -1,8 +1,8 @@
 export const navList = [
-  "BOOKINGS",
-  "ITINERARIES",
-  "EXPERIENCES",
-  "Digital guides",
-  "About us",
-  "Contact us",
+  { name: "BOOKINGS", path: "/" },
+  { name: "ITINERARIES", path: "/" },
+  { name: "EXPERIENCES", path: "/" },
+  { name: "Digital guides", path: "/" },
+  { name: "About us", path: "/" },
+  { name: "Contact us", path: "/" },
 ];

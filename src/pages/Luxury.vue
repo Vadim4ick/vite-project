@@ -42,7 +42,7 @@
   </section>
 
   <section class="pb-[75px]">
-    <div class="mx-auto max-w-[1310] px-4">
+    <div class="mx-auto max-w-[1310px] px-4">
       <h3
         class="text-center font-[500] uppercase max-tablet:text-[25px] tablet:text-[35px]"
       >
@@ -57,8 +57,8 @@
             <swiper
               :modules="modules"
               :navigation="{
-                nextEl: '.swiper-lbdTwo-btn.button-next',
-                prevEl: '.swiper-lbdTwo-btn.button-prev',
+                nextEl: '.swiper-lbdOne-btn.button-next',
+                prevEl: '.swiper-lbdOne-btn.button-prev',
               }"
               :spaceBetween="20"
               class="w-[260px] overflow-hidden"
@@ -97,7 +97,7 @@
               class="tablet:widthBtn z-10 flex justify-between max-tablet:pt-4 tablet:absolute tablet:left-0 tablet:top-1/2 tablet:translate-x-[-55px] tablet:translate-y-[-50%]"
             >
               <button
-                class="swiper-lbdTwo-btn button-prev flex h-[45px] w-[45px] items-center justify-center rounded-full bg-gray-200"
+                class="swiper-lbdOne-btn button-prev flex h-[45px] w-[45px] items-center justify-center rounded-full bg-gray-200"
               >
                 <svg
                   class="rotate-180"
@@ -118,7 +118,7 @@
               </button>
 
               <button
-                class="swiper-lbdTwo-btn button-next flex h-[45px] w-[45px] items-center justify-center rounded-full bg-gray-200"
+                class="swiper-lbdOne-btn button-next flex h-[45px] w-[45px] items-center justify-center rounded-full bg-gray-200"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -265,8 +265,8 @@
             <swiper
               :modules="modules"
               :navigation="{
-                nextEl: '.swiper-lbdTwo-btn.button-next',
-                prevEl: '.swiper-lbdTwo-btn.button-prev',
+                nextEl: '.swiper-lbdThird-btn.button-next',
+                prevEl: '.swiper-lbdThird-btn.button-prev',
               }"
               :spaceBetween="20"
               class="w-[260px] overflow-hidden"
@@ -305,7 +305,7 @@
               class="tablet:widthBtn z-10 flex justify-between max-tablet:pt-4 tablet:absolute tablet:left-0 tablet:top-1/2 tablet:translate-x-[-55px] tablet:translate-y-[-50%]"
             >
               <button
-                class="swiper-lbdTwo-btn button-prev flex h-[45px] w-[45px] items-center justify-center rounded-full bg-gray-200"
+                class="swiper-lbdThird-btn button-prev flex h-[45px] w-[45px] items-center justify-center rounded-full bg-gray-200"
               >
                 <svg
                   class="rotate-180"
@@ -326,7 +326,7 @@
               </button>
 
               <button
-                class="swiper-lbdTwo-btn button-next flex h-[45px] w-[45px] items-center justify-center rounded-full bg-gray-200"
+                class="swiper-lbdThird-btn button-next flex h-[45px] w-[45px] items-center justify-center rounded-full bg-gray-200"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

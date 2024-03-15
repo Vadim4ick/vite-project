@@ -30,7 +30,7 @@
 
         <div class="flex flex-col">
           <img
-            class="w-[475px] w-full object-cover"
+            class="w-[475px] object-cover"
             src="/img/ourService.png"
             alt=""
           />
