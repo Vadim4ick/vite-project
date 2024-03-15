@@ -3,7 +3,7 @@
     :class="{
       'min-h-screen': show,
     }"
-    class="fixed z-10 w-full bg-bg"
+    class="fixed z-50 w-full bg-bg"
   >
     <div class="mx-auto max-w-[1360px] px-[16px]">
       <div class="flex h-headerHeight items-center justify-between gap-6">
@@ -15,7 +15,7 @@
 
         <div
           :class="{
-            'max-largeDesktop:pt-headerHeight max-largeDesktop:visible max-largeDesktop:absolute max-largeDesktop:left-1/2 max-largeDesktop:top-[25px]':
+            'max-largeDesktop:visible max-largeDesktop:absolute max-largeDesktop:left-1/2 max-largeDesktop:top-[25px] max-largeDesktop:pt-headerHeight':
               show,
             'max-largeDesktop:hidden': !show,
           }"

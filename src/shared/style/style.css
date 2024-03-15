@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .widthBtn {
+    @apply w-[calc(100%_+_110px)];
+  }
+}
+
 @font-face {
   font-family: "Kyiv";
   src:

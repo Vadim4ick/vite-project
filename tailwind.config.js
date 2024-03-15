@@ -23,6 +23,7 @@ export default {
         travelPopularReverseTablet: "1fr 385px",
 
         someOfTheHotels: "repeat(auto-fit, minmax(240px, 1fr));",
+        lbdOffer: "repeat(auto-fit, minmax(370px, 1fr));",
       },
 
       fontFamily: {

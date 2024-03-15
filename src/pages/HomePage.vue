@@ -267,168 +267,172 @@
 
   <!-- CLIENT EXPERIENCE -->
   <section class="max-tablet:pb-[100px] tablet:pb-[220px]">
-    <h2
-      class="px-4 text-center font-[500] uppercase max-tablet:text-[35px] tablet:text-[42px]"
-    >
-      CLIENT EXPERIENCE
-    </h2>
+    <div class="mx-auto max-w-[1510px] px-4">
+      <h2
+        class="px-4 text-center font-[500] uppercase max-tablet:text-[35px] tablet:text-[42px]"
+      >
+        CLIENT EXPERIENCE
+      </h2>
 
-    <swiper
-      class="pl-4 pt-[40px]"
-      :breakpoints="{
-        320: {
-          slidesPerView: 1.2,
-          spaceBetween: 10,
-        },
-        465: {
-          slidesPerView: 1.6,
-          spaceBetween: 20,
-        },
-        615: {
-          slidesPerView: 2.2,
-          spaceBetween: 20,
-        },
-        991: {
-          slidesPerView: 3.1,
-          spaceBetween: 30,
-        },
-        1250: {
-          slidesPerView: 3.45,
-          spaceBetween: 35,
-        },
-      }"
-    >
-      <swiper-slide>
-        <div
-          class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
-        >
-          <p class="text-[25px] font-medium">Love it!</p>
+      <swiper
+        class="pl-4 pt-[40px]"
+        :breakpoints="{
+          320: {
+            slidesPerView: 1.2,
+            spaceBetween: 10,
+          },
+          465: {
+            slidesPerView: 1.6,
+            spaceBetween: 20,
+          },
+          615: {
+            slidesPerView: 2.2,
+            spaceBetween: 20,
+          },
+          991: {
+            slidesPerView: 3.1,
+            spaceBetween: 30,
+          },
+          1250: {
+            slidesPerView: 3.45,
+            spaceBetween: 35,
+          },
+        }"
+      >
+        <swiper-slide>
+          <div
+            class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
+          >
+            <p class="text-[25px] font-medium">Love it!</p>
 
-          <span class="tablet:text-[20px] tablet:font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
-            ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
-            viverra pretium fermentum tempus, erat.
-          </span>
-        </div>
-      </swiper-slide>
+            <span class="tablet:text-[20px] tablet:font-medium">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
+              ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
+              viverra pretium fermentum tempus, erat.
+            </span>
+          </div>
+        </swiper-slide>
 
-      <swiper-slide>
-        <div
-          class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
-        >
-          <p class="text-[25px] font-medium">Love it!</p>
+        <swiper-slide>
+          <div
+            class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
+          >
+            <p class="text-[25px] font-medium">Love it!</p>
 
-          <span class="tablet:text-[20px] tablet:font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
-            ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
-            viverra pretium fermentum tempus, erat.
-          </span>
-        </div>
-      </swiper-slide>
+            <span class="tablet:text-[20px] tablet:font-medium">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
+              ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
+              viverra pretium fermentum tempus, erat.
+            </span>
+          </div>
+        </swiper-slide>
 
-      <swiper-slide>
-        <div
-          class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
-        >
-          <p class="text-[25px] font-medium">Love it!</p>
+        <swiper-slide>
+          <div
+            class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
+          >
+            <p class="text-[25px] font-medium">Love it!</p>
 
-          <span class="tablet:text-[20px] tablet:font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
-            ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
-            viverra pretium fermentum tempus, erat.
-          </span>
-        </div>
-      </swiper-slide>
+            <span class="tablet:text-[20px] tablet:font-medium">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
+              ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
+              viverra pretium fermentum tempus, erat.
+            </span>
+          </div>
+        </swiper-slide>
 
-      <swiper-slide>
-        <div
-          class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
-        >
-          <p class="text-[25px] font-medium">Love it!</p>
+        <swiper-slide>
+          <div
+            class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
+          >
+            <p class="text-[25px] font-medium">Love it!</p>
 
-          <span class="tablet:text-[20px] tablet:font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
-            ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
-            viverra pretium fermentum tempus, erat.
-          </span>
-        </div>
-      </swiper-slide>
+            <span class="tablet:text-[20px] tablet:font-medium">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
+              ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
+              viverra pretium fermentum tempus, erat.
+            </span>
+          </div>
+        </swiper-slide>
 
-      <swiper-slide>
-        <div
-          class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
-        >
-          <p class="text-[25px] font-medium">Love it!</p>
+        <swiper-slide>
+          <div
+            class="flex flex-col gap-[14px] bg-white px-[25px] py-8 max-tablet:min-h-[350px] tablet:min-h-[417px]"
+          >
+            <p class="text-[25px] font-medium">Love it!</p>
 
-          <span class="tablet:text-[20px] tablet:font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
-            ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
-            viverra pretium fermentum tempus, erat.
-          </span>
-        </div>
-      </swiper-slide>
-    </swiper>
+            <span class="tablet:text-[20px] tablet:font-medium">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus eu
+              ornare vel eget elit aliquet fermentum morbi. Bibendum molestie
+              viverra pretium fermentum tempus, erat.
+            </span>
+          </div>
+        </swiper-slide>
+      </swiper>
+    </div>
   </section>
   <!-- / CLIENT EXPERIENCE -->
 
   <section class="pb-[55px]">
-    <h2
-      class="px-4 text-center font-[500] uppercase max-tablet:text-[25px] max-mobile:text-[20px] tablet:text-[42px]"
-    >
-      @LITTLEBLUEDOOR.TRAVEL
-    </h2>
+    <div class="mx-auto max-w-[1510px] px-4">
+      <h2
+        class="px-4 text-center font-[500] uppercase max-tablet:text-[25px] max-mobile:text-[20px] tablet:text-[42px]"
+      >
+        @LITTLEBLUEDOOR.TRAVEL
+      </h2>
 
-    <swiper
-      class="pt-[50px] max-laptop:pl-4 laptop:pl-[43px]"
-      :breakpoints="{
-        320: {
-          slidesPerView: 1.2,
-          spaceBetween: 20,
-        },
-        465: {
-          slidesPerView: 1.6,
-          spaceBetween: 20,
-        },
-        615: {
-          slidesPerView: 2.2,
-          spaceBetween: 20,
-        },
-        750: {
-          slidesPerView: 2.7,
-          spaceBetween: 20,
-        },
-        991: {
-          slidesPerView: 3.1,
-          spaceBetween: 30,
-        },
-        1250: {
-          slidesPerView: 3.7,
-          spaceBetween: 35,
-        },
-      }"
-    >
-      <swiper-slide>
-        <img class="object-cover" src="/img/ourService.png" alt="" />
-      </swiper-slide>
-      <swiper-slide>
-        <img class="object-cover" src="/img/ourService.png" alt="" />
-      </swiper-slide>
-      <swiper-slide>
-        <img class="object-cover" src="/img/ourService.png" alt="" />
-      </swiper-slide>
-      <swiper-slide>
-        <img class="object-cover" src="/img/ourService.png" alt="" />
-      </swiper-slide>
-      <swiper-slide>
-        <img class="object-cover" src="/img/ourService.png" alt="" />
-      </swiper-slide>
-      <swiper-slide>
-        <img class="object-cover" src="/img/ourService.png" alt="" />
-      </swiper-slide>
-      <swiper-slide>
-        <img class="object-cover" src="/img/ourService.png" alt="" />
-      </swiper-slide>
-    </swiper>
+      <swiper
+        class="pt-[50px] max-laptop:pl-4 laptop:pl-[43px]"
+        :breakpoints="{
+          320: {
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+          },
+          465: {
+            slidesPerView: 1.6,
+            spaceBetween: 20,
+          },
+          615: {
+            slidesPerView: 2.2,
+            spaceBetween: 20,
+          },
+          750: {
+            slidesPerView: 2.7,
+            spaceBetween: 20,
+          },
+          991: {
+            slidesPerView: 3.1,
+            spaceBetween: 30,
+          },
+          1250: {
+            slidesPerView: 3.7,
+            spaceBetween: 35,
+          },
+        }"
+      >
+        <swiper-slide>
+          <img class="object-cover" src="/img/ourService.png" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img class="object-cover" src="/img/ourService.png" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img class="object-cover" src="/img/ourService.png" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img class="object-cover" src="/img/ourService.png" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img class="object-cover" src="/img/ourService.png" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img class="object-cover" src="/img/ourService.png" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img class="object-cover" src="/img/ourService.png" alt="" />
+        </swiper-slide>
+      </swiper>
+    </div>
   </section>
 </template>
 
