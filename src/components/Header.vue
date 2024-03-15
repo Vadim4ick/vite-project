@@ -15,7 +15,7 @@
 
         <div
           :class="{
-            'max-largeDesktop:visible max-largeDesktop:absolute max-largeDesktop:left-1/2 max-largeDesktop:top-[25px] max-largeDesktop:pt-headerHeight':
+            'max-largeDesktop:visible max-largeDesktop:absolute  max-largeDesktop:top-[25px] max-largeDesktop:pt-headerHeight':
               show,
             'max-largeDesktop:hidden': !show,
           }"
@@ -23,7 +23,7 @@
         >
           <nav>
             <ul
-              class="flex max-largeDesktop:inline-flex max-largeDesktop:translate-x-[-50%] max-largeDesktop:flex-col max-largeDesktop:items-center max-largeDesktop:gap-3 largeDesktop:gap-6"
+              class="flex max-largeDesktop:flex-col max-largeDesktop:items-center max-largeDesktop:gap-3 largeDesktop:gap-6"
             >
               <li v-for="(item, index) in navList">
                 <router-link to="/" class="max-largeDesktop:text-[23px]">{{
@@ -35,7 +35,7 @@
 
           <router-link
             to=""
-            class="flex items-center gap-2 max-largeDesktop:text-[20px]"
+            class="flex justify-center gap-2 max-largeDesktop:items-center max-largeDesktop:pt-[20px] max-largeDesktop:text-[20px]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -72,6 +72,16 @@
 
     components: {
       Burger,
+    },
+
+    watch: {
+      show(newValue) {
+        if (newValue) {
+          document.body.style.overflow = "hidden";
+        } else {
+          document.body.style.overflow = "auto";
+        }
+      },
     },
   };
 </script>
