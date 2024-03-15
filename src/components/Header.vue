@@ -8,8 +8,13 @@
     <div class="mx-auto max-w-[1360px] px-[16px]">
       <div class="flex h-headerHeight items-center justify-between gap-6">
         <router-link to="/">
-          <img src="/img/logo.png" srcset="/img/logo@2x.png 2x"
-        /></router-link>
+          <img
+            src="/img/homePage/logoService.png"
+            class="w-[60px]"
+            srcset="/img/homePage/logoService@2x.png 2x"
+            alt="logoService.png"
+          />
+        </router-link>
 
         <Burger :show="show" @update:show="show = $event" />
 
