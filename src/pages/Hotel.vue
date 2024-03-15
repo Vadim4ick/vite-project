@@ -1,5 +1,6 @@
 <template>
-  <section class="pt-headerHeight pb-[85px]">
+  <!-- HOTEL & VILLA BOOKINGS -->
+  <section class="pb-[85px] pt-headerHeight">
     <div class="px-4 py-2">
       <h3
         class="text-center font-[500] uppercase max-tablet:text-[25px] tablet:text-[35px]"
@@ -40,7 +41,9 @@
       </div>
     </div>
   </section>
+  <!-- /HOTEL & VILLA BOOKINGS -->
 
+  <!-- SLIDER TABS -->
   <section class="pb-[55px] text-black">
     <div class="mx-auto max-w-[582px] px-4">
       <p class="text-center font-semibold uppercase max-tablet:text-[14px]">
@@ -362,7 +365,9 @@
     </div>
     <!-- /TABS SLIDES -->
   </section>
+  <!-- /SLIDER TABS -->
 
+  <!-- WHY US? -->
   <section class="pb-[120px]">
     <h3
       class="text-center font-[500] uppercase max-tablet:text-[25px] tablet:text-[35px]"
@@ -409,7 +414,9 @@
       </div>
     </div>
   </section>
+  <!-- /WHY US? -->
 
+  <!-- A FEW POPULAR TRAVEL DESTINATIONS AMONG LBD CLIENTS -->
   <section class="max-tablet:pb-[120px] tablet:pb-[200px]">
     <div class="mx-auto max-w-[680px]">
       <h3
@@ -423,7 +430,7 @@
       class="hotelTravel mx-auto flex max-w-[1210px] flex-col px-4 pt-[50px] max-tablet:gap-[50px] tablet:gap-[100px]"
     >
       <article
-        class="laptop:grid-cols-travelPopular laptop:even:grid-cols-travelPopularReverse max-laptop:grid-cols-travelPopularTablet max-laptop:even:grid-cols-travelPopularReverseTablet grid max-laptop:gap-[25px] max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:gap-[45px]"
+        class="grid max-laptop:grid-cols-travelPopularTablet max-laptop:gap-[25px] max-laptop:even:grid-cols-travelPopularReverseTablet max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:grid-cols-travelPopular laptop:gap-[45px] laptop:even:grid-cols-travelPopularReverse"
       >
         <swiper
           class="hotelSwiper w-full max-w-[485px]"
@@ -464,7 +471,7 @@
       </article>
 
       <article
-        class="laptop:grid-cols-travelPopular laptop:even:grid-cols-travelPopularReverse max-laptop:grid-cols-travelPopularTablet max-laptop:even:grid-cols-travelPopularReverseTablet grid max-laptop:gap-[25px] max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:gap-[45px]"
+        class="grid max-laptop:grid-cols-travelPopularTablet max-laptop:gap-[25px] max-laptop:even:grid-cols-travelPopularReverseTablet max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:grid-cols-travelPopular laptop:gap-[45px] laptop:even:grid-cols-travelPopularReverse"
       >
         <swiper
           class="hotelSwiper w-full max-w-[485px]"
@@ -505,7 +512,7 @@
       </article>
 
       <article
-        class="laptop:grid-cols-travelPopular laptop:even:grid-cols-travelPopularReverse max-laptop:grid-cols-travelPopularTablet max-laptop:even:grid-cols-travelPopularReverseTablet grid max-laptop:gap-[25px] max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:gap-[45px]"
+        class="grid max-laptop:grid-cols-travelPopularTablet max-laptop:gap-[25px] max-laptop:even:grid-cols-travelPopularReverseTablet max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:grid-cols-travelPopular laptop:gap-[45px] laptop:even:grid-cols-travelPopularReverse"
       >
         <swiper
           class="hotelSwiper w-full max-w-[485px]"
@@ -546,7 +553,7 @@
       </article>
 
       <article
-        class="laptop:grid-cols-travelPopular laptop:even:grid-cols-travelPopularReverse max-laptop:grid-cols-travelPopularTablet max-laptop:even:grid-cols-travelPopularReverseTablet grid max-laptop:gap-[25px] max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:gap-[45px]"
+        class="grid max-laptop:grid-cols-travelPopularTablet max-laptop:gap-[25px] max-laptop:even:grid-cols-travelPopularReverseTablet max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:grid-cols-travelPopular laptop:gap-[45px] laptop:even:grid-cols-travelPopularReverse"
       >
         <swiper
           class="hotelSwiper w-full max-w-[485px]"
@@ -587,6 +594,7 @@
       </article>
     </div>
   </section>
+  <!-- /A FEW POPULAR TRAVEL DESTINATIONS AMONG LBD CLIENTS -->
 
   <section class="pb-[40px]">
     <div class="mx-auto flex max-w-[1230px] flex-col items-center px-4">

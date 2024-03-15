@@ -1,4 +1,5 @@
 <template>
+  <!-- BESPOKE INTINERARIES -->
   <section class="pb-[85px] pt-headerHeight">
     <div class="px-4 py-2">
       <h3
@@ -40,7 +41,9 @@
       </div>
     </div>
   </section>
+  <!-- /BESPOKE INTINERARIES -->
 
+  <!-- HOW IT WORKS? -->
   <section>
     <div class="mx-auto max-w-[1315px] px-4 pb-5">
       <h3
@@ -127,7 +130,9 @@
       </div>
     </div>
   </section>
+  <!-- /HOW IT WORKS? -->
 
+  <!-- START PLANNING YOUR TRIP -->
   <section class="max-tablet:pt-[50px] tablet:pt-[100px]">
     <div class="mx-auto max-w-[900px] px-4">
       <h3
@@ -185,7 +190,9 @@
       </form>
     </div>
   </section>
+  <!-- /START PLANNING YOUR TRIP -->
 
+  <!-- PAST ITINERARIES FOR LBG CLIENTS -->
   <section class="max-tablet:pb-[50px] tablet:pb-[100px]">
     <div class="relative mx-auto max-w-[1315px] px-4">
       <h4
@@ -317,7 +324,9 @@
       </div>
     </div>
   </section>
+  <!-- /PAST ITINERARIES FOR LBG CLIENTS -->
 
+  <!-- Slider 2 -->
   <section class="pb-[100px]">
     <div class="relative mx-auto max-w-[1315px] px-4">
       <swiper
@@ -442,7 +451,9 @@
       </div>
     </div>
   </section>
+  <!-- /Slider 2 -->
 
+  <!-- WHATSAPP  -->
   <section
     class="flex flex-col items-center justify-center gap-5 px-4 pb-[65px]"
   >
@@ -470,6 +481,7 @@
       whatsapp us for more information
     </p>
   </section>
+  <!-- /WHATSAPP  -->
 </template>
 
 <script>
