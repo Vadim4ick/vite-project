@@ -121,7 +121,7 @@
         </div>
 
         <button
-          class="mx-auto table w-full bg-mainColor text-[25px] font-medium text-bg max-tablet:mt-[40px] max-tablet:h-[55px] max-tablet:max-w-[200px] max-tablet:text-[20px] tablet:mt-[70px] tablet:h-[67px] tablet:max-w-[270px]"
+          class="mx-auto table w-full bg-mainColor text-[25px] font-medium text-bg transition-colors hover:bg-black max-tablet:mt-[40px] max-tablet:h-[55px] max-tablet:max-w-[200px] max-tablet:text-[20px] tablet:mt-[70px] tablet:h-[67px] tablet:max-w-[270px]"
         >
           Start Planning
         </button>
@@ -146,20 +146,61 @@
         </p>
       </div>
 
-      <div class="flex gap-[35px] overflow-hidden pt-[55px]">
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
-        <img class="max-w-max" src="/img/ourService.png" alt="" />
+      <div class="flex items-center gap-[35px] overflow-hidden pt-[55px]">
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/belmond.png"
+          srcset="/img/logos/belmond@2x.png 2x"
+          alt=""
+        />
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/elite.png"
+          srcset="/img/logos/elite@2x.png 2x"
+          alt=""
+        />
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/lata.png"
+          srcset="/img/logos/lata@2x.png 2x"
+          alt=""
+        />
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/logo.png"
+          srcset="/img/logos/logo@2x.png 2x"
+          alt=""
+        />
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/logoBlue.png"
+          srcset="/img/logos/logoBlue@2x.png 2x"
+          alt=""
+        />
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/luxury.png"
+          srcset="/img/logos/luxury@2x.png 2x"
+          alt=""
+        />
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/membership.png"
+          srcset="/img/logos/membership@2x.png 2x"
+          alt=""
+        />
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/prefered.png"
+          srcset="/img/logos/prefered@2x.png 2x"
+          alt=""
+        />
+        <img
+          class="max-w-[350px] object-contain"
+          src="/img/logos/virtuoso.png"
+          srcset="/img/logos/virtuoso@2x.png 2x"
+          alt=""
+        />
       </div>
     </div>
   </section>
@@ -186,7 +227,7 @@
 
       <div class="px-4">
         <button
-          class="mx-auto mt-[50px] table h-[67px] w-full max-w-[615px] bg-mainColor px-2 font-medium text-bg tablet:text-[25px]"
+          class="mx-auto mt-[50px] table h-[67px] w-full max-w-[615px] bg-mainColor px-2 font-medium text-bg transition-colors hover:bg-black tablet:text-[25px]"
         >
           CURATE YOUR OWN DREAM JOURNEY
         </button>

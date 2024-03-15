@@ -60,10 +60,14 @@
         <div
           class="flex w-full justify-between pt-[30px] text-[12px] text-white max-tablet:gap-3 max-tablet:px-4 tablet:gap-5 tablet:px-9"
         >
-          <button class="h-[40px] w-full bg-black px-2 uppercase">
+          <button
+            class="h-[40px] w-full bg-black px-2 uppercase transition-colors hover:bg-mainColor"
+          >
             Hotels
           </button>
-          <button class="h-[40px] w-full bg-black px-2 uppercase">
+          <button
+            class="h-[40px] w-full bg-black px-2 uppercase transition-colors hover:bg-mainColor"
+          >
             Villas & apartaments
           </button>
         </div>
