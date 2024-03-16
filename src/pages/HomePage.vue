@@ -146,7 +146,7 @@
         </p>
       </div>
 
-      <div class="flex items-center gap-[35px] overflow-hidden pt-[55px]">
+      <div class="test flex items-center gap-[35px] pt-[55px]">
         <img
           class="max-w-[350px] object-contain"
           src="/img/logos/belmond.png"
@@ -183,6 +183,7 @@
           srcset="/img/logos/luxury@2x.png 2x"
           alt=""
         />
+
         <img
           class="max-w-[350px] object-contain"
           src="/img/logos/membership.png"

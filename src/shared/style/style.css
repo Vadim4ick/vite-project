@@ -43,23 +43,29 @@ textarea:focus {
 }
 
 /* animation logos */
-@keyframes scroll {
+/* @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-280px * 7));
   }
-}
-
-/* .test {
-  display: flex;
-  width: 100%;
-  height: 100px;
-  overflow: hidden;
-  border: 1px solid black;
 } */
 
 /* .test {
   animation: scroll 10s linear infinite;
 } */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* transform: translateX(calc(-350px * 7)); */
+    transform: translateX(calc(-100% - 410px)); /* Конечная позиция */
+  }
+}
+
+.test {
+  animation: scroll 10s linear infinite;
+}
