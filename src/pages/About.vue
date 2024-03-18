@@ -24,7 +24,7 @@
               xenia rankin
             </p>
 
-            <span class="tablet:text-[20px]">TEXT</span>
+            <span>Text</span>
           </div>
         </div>
 
@@ -42,7 +42,7 @@
               xenia rankin
             </p>
 
-            <span class="tablet:text-[20px]">TEXT</span>
+            <span>Text</span>
           </div>
         </div>
       </div>

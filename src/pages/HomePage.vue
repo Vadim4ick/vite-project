@@ -121,7 +121,7 @@
         </div>
 
         <button
-          class="mx-auto table w-full bg-mainColor text-[25px] font-medium text-bg transition-colors hover:bg-black max-tablet:mt-[40px] max-tablet:h-[55px] max-tablet:max-w-[200px] max-tablet:text-[20px] tablet:mt-[70px] tablet:h-[67px] tablet:max-w-[270px]"
+          class="hover:bg-mainColorHover mx-auto table w-full bg-mainColor text-[25px] font-medium text-bg transition-colors max-tablet:mt-[40px] max-tablet:h-[55px] max-tablet:max-w-[200px] max-tablet:text-[20px] tablet:mt-[70px] tablet:h-[67px] tablet:max-w-[270px]"
         >
           Start Planning
         </button>
@@ -146,7 +146,7 @@
         </p>
       </div>
 
-      <div class="test flex items-center gap-[35px] pt-[55px]">
+      <div class="test flex items-center gap-[35px] overflow-hidden pt-[55px]">
         <img
           class="max-w-[350px] object-contain"
           src="/img/logos/belmond.png"
@@ -212,15 +212,15 @@
     class="relative max-tablet:mt-[35px] max-tablet:pb-[65px] tablet:mt-[65px] tablet:pb-[115px]"
   >
     <div class="mx-auto max-w-[1440px]">
-      <div>
+      <div class="relative">
         <img
           src="/img/homePage/yourDoor.png"
-          srcset="/img/homePage/yourDoor@2x.png 2x"
+          class="max-h-[500px] w-full object-cover"
           alt=""
         />
 
         <p
-          class="absolute left-1/2 w-full translate-x-[-50%] text-center font-semibold text-white max-largeDesktop:top-[10%] max-largeDesktop:text-[25px] max-tablet:top-[5%] max-tablet:text-[20px] largeDesktop:top-[15%] largeDesktop:text-[40px]"
+          class="absolute left-1/2 top-1/2 w-full translate-x-[-50%] translate-y-[-20%] text-center text-[40px] font-semibold text-white max-tablet:text-[25px]"
         >
           YOUR DOOR TO
         </p>
@@ -228,7 +228,7 @@
 
       <div class="px-4">
         <button
-          class="mx-auto mt-[50px] table h-[67px] w-full max-w-[615px] bg-mainColor px-2 font-medium text-bg transition-colors hover:bg-black tablet:text-[25px]"
+          class="hover:bg-mainColorHover mx-auto mt-[50px] table h-[67px] w-full max-w-[615px] bg-mainColor px-2 font-medium text-bg transition-colors tablet:text-[25px]"
         >
           CURATE YOUR OWN DREAM JOURNEY
         </button>
@@ -317,26 +317,18 @@
       </h2>
 
       <swiper
-        class="pl-4 pt-[40px]"
+        class="pt-[40px]"
         :breakpoints="{
           320: {
-            slidesPerView: 1.2,
-            spaceBetween: 20,
-          },
-          465: {
-            slidesPerView: 1.6,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           615: {
-            slidesPerView: 2.2,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           991: {
-            slidesPerView: 3.1,
-            spaceBetween: 30,
-          },
-          1250: {
-            slidesPerView: 3.45,
+            slidesPerView: 3,
             spaceBetween: 35,
           },
         }"
@@ -424,54 +416,46 @@
       </h2>
 
       <swiper
-        class="pt-[50px] max-laptop:pl-4 laptop:pl-[43px]"
+        class="pt-[50px]"
         :breakpoints="{
           320: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           465: {
-            slidesPerView: 1.6,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           615: {
-            slidesPerView: 2.2,
+            slidesPerView: 3,
             spaceBetween: 20,
-          },
-          750: {
-            slidesPerView: 2.7,
-            spaceBetween: 20,
-          },
-          991: {
-            slidesPerView: 3.1,
-            spaceBetween: 30,
           },
           1250: {
-            slidesPerView: 3.7,
+            slidesPerView: 4,
             spaceBetween: 35,
           },
         }"
       >
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
       </swiper>
     </div>

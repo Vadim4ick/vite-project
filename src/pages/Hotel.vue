@@ -44,7 +44,7 @@
   <!-- /HOTEL & VILLA BOOKINGS -->
 
   <!-- SLIDER TABS -->
-  <section class="pb-[55px] text-black">
+  <section class="pb-[55px]">
     <div class="mx-auto max-w-[582px] px-4">
       <p class="text-center font-semibold uppercase max-tablet:text-[14px]">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. iste at
@@ -94,14 +94,10 @@
           <swiper
             :breakpoints="{
               320: {
-                slidesPerView: 2.2,
+                slidesPerView: 2,
                 spaceBetween: 20,
               },
               460: {
-                slidesPerView: 2.6,
-                spaceBetween: 20,
-              },
-              550: {
                 slidesPerView: 3,
                 spaceBetween: 20,
               },
@@ -186,14 +182,10 @@
           <swiper
             :breakpoints="{
               320: {
-                slidesPerView: 2.2,
+                slidesPerView: 2,
                 spaceBetween: 20,
               },
               460: {
-                slidesPerView: 2.6,
-                spaceBetween: 20,
-              },
-              550: {
                 slidesPerView: 3,
                 spaceBetween: 20,
               },
@@ -278,14 +270,10 @@
           <swiper
             :breakpoints="{
               320: {
-                slidesPerView: 2.2,
+                slidesPerView: 2,
                 spaceBetween: 20,
               },
               460: {
-                slidesPerView: 2.6,
-                spaceBetween: 20,
-              },
-              550: {
                 slidesPerView: 3,
                 spaceBetween: 20,
               },
@@ -436,25 +424,54 @@
       <article
         class="grid max-laptop:grid-cols-travelPopularTablet max-laptop:gap-[25px] max-laptop:even:grid-cols-travelPopularReverseTablet max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:grid-cols-travelPopular laptop:gap-[45px] laptop:even:grid-cols-travelPopularReverse"
       >
-        <swiper
-          class="hotelSwiper w-full max-w-[485px]"
-          :breakpoints="{
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 15,
-            },
-          }"
-        >
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-        </swiper>
+        <div class="hotelSwiper flex flex-col gap-4">
+          <swiper
+            :modules="modules"
+            class="w-full max-w-[485px]"
+            :navigation="{
+              nextEl: '.swiper-popularTravelOne-btn.button-next',
+              prevEl: '.swiper-popularTravelOne-btn.button-prev',
+            }"
+            :breakpoints="{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+              },
+            }"
+          >
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+          </swiper>
+
+          <div class="flex justify-between">
+            <button class="swiper-popularTravelOne-btn button-prev">
+              <Arrow customClasses="rotate-180 w-[32px] h-[32px]" />
+            </button>
+
+            <button class="swiper-popularTravelOne-btn button-next">
+              <Arrow customClasses="w-[32px] h-[32px]" />
+            </button>
+          </div>
+        </div>
 
         <div
           class="hotelContent flex w-full flex-col items-center justify-center gap-[15px] text-[14px]"
@@ -477,25 +494,54 @@
       <article
         class="grid max-laptop:grid-cols-travelPopularTablet max-laptop:gap-[25px] max-laptop:even:grid-cols-travelPopularReverseTablet max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:grid-cols-travelPopular laptop:gap-[45px] laptop:even:grid-cols-travelPopularReverse"
       >
-        <swiper
-          class="hotelSwiper w-full max-w-[485px]"
-          :breakpoints="{
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 15,
-            },
-          }"
-        >
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-        </swiper>
+        <div class="hotelSwiper flex flex-col gap-4">
+          <swiper
+            :modules="modules"
+            class="w-full max-w-[485px]"
+            :navigation="{
+              nextEl: '.swiper-popularTravelThree-btn.button-next',
+              prevEl: '.swiper-popularTravelThree-btn.button-prev',
+            }"
+            :breakpoints="{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+              },
+            }"
+          >
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+          </swiper>
+
+          <div class="flex justify-between">
+            <button class="swiper-popularTravelThree-btn button-prev">
+              <Arrow customClasses="rotate-180 w-[32px] h-[32px]" />
+            </button>
+
+            <button class="swiper-popularTravelThree-btn button-next">
+              <Arrow customClasses="w-[32px] h-[32px]" />
+            </button>
+          </div>
+        </div>
 
         <div
           class="hotelContent flex w-full flex-col items-center justify-center gap-[15px] text-[14px]"
@@ -518,25 +564,54 @@
       <article
         class="grid max-laptop:grid-cols-travelPopularTablet max-laptop:gap-[25px] max-laptop:even:grid-cols-travelPopularReverseTablet max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:grid-cols-travelPopular laptop:gap-[45px] laptop:even:grid-cols-travelPopularReverse"
       >
-        <swiper
-          class="hotelSwiper w-full max-w-[485px]"
-          :breakpoints="{
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 15,
-            },
-          }"
-        >
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-        </swiper>
+        <div class="hotelSwiper flex flex-col gap-4">
+          <swiper
+            :modules="modules"
+            class="w-full max-w-[485px]"
+            :navigation="{
+              nextEl: '.swiper-popularTravelFour-btn.button-next',
+              prevEl: '.swiper-popularTravelFour-btn.button-prev',
+            }"
+            :breakpoints="{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+              },
+            }"
+          >
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+          </swiper>
+
+          <div class="flex justify-between">
+            <button class="swiper-popularTravelFour-btn button-prev">
+              <Arrow customClasses="rotate-180 w-[32px] h-[32px]" />
+            </button>
+
+            <button class="swiper-popularTravelFour-btn button-next">
+              <Arrow customClasses="w-[32px] h-[32px]" />
+            </button>
+          </div>
+        </div>
 
         <div
           class="hotelContent flex w-full flex-col items-center justify-center gap-[15px] text-[14px]"
@@ -559,25 +634,54 @@
       <article
         class="grid max-laptop:grid-cols-travelPopularTablet max-laptop:gap-[25px] max-laptop:even:grid-cols-travelPopularReverseTablet max-tablet:grid-cols-1 max-tablet:even:grid-cols-1 laptop:grid-cols-travelPopular laptop:gap-[45px] laptop:even:grid-cols-travelPopularReverse"
       >
-        <swiper
-          class="hotelSwiper w-full max-w-[485px]"
-          :breakpoints="{
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 15,
-            },
-          }"
-        >
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img class="w-full object-cover" src="/img/ourService.png" alt="" />
-          </swiper-slide>
-        </swiper>
+        <div class="hotelSwiper flex flex-col gap-4">
+          <swiper
+            :modules="modules"
+            class="w-full max-w-[485px]"
+            :navigation="{
+              nextEl: '.swiper-popularTravelTwo-btn.button-next',
+              prevEl: '.swiper-popularTravelTwo-btn.button-prev',
+            }"
+            :breakpoints="{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+              },
+            }"
+          >
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+            <swiper-slide>
+              <img
+                class="w-full object-cover"
+                src="/img/ourService.png"
+                alt=""
+              />
+            </swiper-slide>
+          </swiper>
+
+          <div class="flex justify-between">
+            <button class="swiper-popularTravelTwo-btn button-prev">
+              <Arrow customClasses="rotate-180 w-[32px] h-[32px]" />
+            </button>
+
+            <button class="swiper-popularTravelTwo-btn button-next">
+              <Arrow customClasses="w-[32px] h-[32px]" />
+            </button>
+          </div>
+        </div>
 
         <div
           class="hotelContent flex w-full flex-col items-center justify-center gap-[15px] text-[14px]"
@@ -664,6 +768,8 @@
 
 <script>
   import { Swiper, SwiperSlide } from "swiper/vue";
+  import Arrow from "@/shared/icons/Arrow.vue";
+  import { Navigation } from "swiper/modules";
 
   import "swiper/css";
 
@@ -671,12 +777,19 @@
     components: {
       Swiper,
       SwiperSlide,
+      Arrow,
     },
 
     data() {
       return {
         currentTab: "Hotels",
         tabs: ["Hotels", "Villas", "Boats"],
+      };
+    },
+
+    setup() {
+      return {
+        modules: [Navigation],
       };
     },
   };

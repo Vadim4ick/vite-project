@@ -33,7 +33,7 @@
               <li v-for="(item, index) in navList">
                 <router-link
                   :to="item.path"
-                  class="transition-colors hover:text-black max-largeDesktop:text-[23px]"
+                  class="hover:text-mainColorHover transition-colors max-largeDesktop:text-[23px]"
                   >{{ item.name }}</router-link
                 >
               </li>
@@ -42,7 +42,7 @@
 
           <router-link
             to=""
-            class="flex items-center justify-center gap-2 hover:text-black max-largeDesktop:pt-[20px] max-largeDesktop:text-[20px] max-largeDesktop:text-[23px]"
+            class="hover:text-mainColorHover flex items-center justify-center gap-2 max-largeDesktop:pt-[20px] max-largeDesktop:text-[20px] max-largeDesktop:text-[23px]"
           >
             <Whatsapp customClasses="text-mainColor" />
 

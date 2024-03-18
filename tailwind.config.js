@@ -6,6 +6,7 @@ export default {
       colors: {
         bg: "rgb(244, 239, 233)",
         mainColor: "rgb(50, 74, 117)",
+        mainColorHover: "rgb(79 108 161)",
       },
 
       height: {
@@ -22,7 +23,7 @@ export default {
         travelPopularTablet: "385px 1fr",
         travelPopularReverseTablet: "1fr 385px",
 
-        someOfTheHotels: "repeat(auto-fit, minmax(240px, 1fr));",
+        someOfTheHotels: "repeat(auto-fit, minmax(260px, 1fr));",
         lbdOffer: "repeat(auto-fit, minmax(370px, 1fr));",
       },
 

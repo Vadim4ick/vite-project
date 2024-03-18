@@ -145,8 +145,8 @@
         An expert from lbd will contact you shortly
       </p>
 
-      <form class="mb-[120px] mt-[30px] text-black">
-        <div class="bg-white px-12 py-8">
+      <form class="mb-[120px] mt-[30px]">
+        <div class="px-12 py-8">
           <h4 class="text-center text-[23px] font-semibold uppercase">
             SUBMIT A commission request
           </h4>
@@ -159,33 +159,33 @@
           <div class="flex flex-col gap-[30px]">
             <div class="flex gap-[30px]">
               <input
-                class="h-[45px] w-full border-b border-gray-400"
+                class="h-[45px] w-full border-b border-gray-400 bg-transparent"
                 type="text"
                 placeholder="FIRST NAME"
               />
 
               <input
-                class="h-[45px] w-full border-b border-gray-400"
+                class="h-[45px] w-full border-b border-gray-400 bg-transparent"
                 type="text"
                 placeholder="LAST NAME"
               />
             </div>
 
             <input
-              class="h-[45px] w-full border-b border-gray-400"
+              class="h-[45px] w-full border-b border-gray-400 bg-transparent"
               type="text"
               placeholder="EMAIL"
             />
 
             <textarea
-              class="h-[170px] w-full border-b border-gray-400"
+              class="h-[170px] w-full border-b border-gray-400 bg-transparent"
               placeholder="MESSAGE"
             ></textarea>
           </div>
         </div>
 
         <button class="w-full pt-4 font-semibold uppercase underline">
-          Example
+          Send
         </button>
       </form>
     </div>
@@ -196,7 +196,7 @@
   <section class="max-tablet:pb-[50px] tablet:pb-[100px]">
     <div class="relative mx-auto max-w-[1315px] px-4">
       <h4
-        class="text-center font-[500] uppercase text-black max-tablet:text-[20px] tablet:text-[30px]"
+        class="text-center font-[500] uppercase max-tablet:text-[20px] tablet:text-[30px]"
       >
         PAST ITINERARIES FOR LBG CLIENTS
       </h4>
@@ -210,24 +210,12 @@
         }"
         :breakpoints="{
           320: {
-            slidesPerView: 1.8,
-            spaceBetween: 17,
-          },
-          400: {
-            slidesPerView: 2.2,
-            spaceBetween: 17,
-          },
-          460: {
-            slidesPerView: 2.7,
-            spaceBetween: 17,
-          },
-          600: {
-            slidesPerView: 3.3,
+            slidesPerView: 2,
             spaceBetween: 17,
           },
 
-          768: {
-            slidesPerView: 3.5,
+          600: {
+            slidesPerView: 3,
             spaceBetween: 17,
           },
 
@@ -239,45 +227,42 @@
       >
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
-
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
-
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
-
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
@@ -308,24 +293,12 @@
         }"
         :breakpoints="{
           320: {
-            slidesPerView: 1.8,
-            spaceBetween: 17,
-          },
-          400: {
-            slidesPerView: 2.2,
-            spaceBetween: 17,
-          },
-          460: {
-            slidesPerView: 2.7,
-            spaceBetween: 17,
-          },
-          600: {
-            slidesPerView: 3.3,
+            slidesPerView: 2,
             spaceBetween: 17,
           },
 
-          768: {
-            slidesPerView: 3.5,
+          600: {
+            slidesPerView: 3,
             spaceBetween: 17,
           },
 
@@ -337,45 +310,42 @@
       >
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
-
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
-
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />
         </swiper-slide>
-
         <swiper-slide>
           <img
-            class="object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
+            class="mx-auto object-cover max-tablet:h-[200px] max-tablet:w-[200px] tablet:h-[300px] tablet:w-[300px]"
             src="/img/ourService.png"
             alt=""
           />

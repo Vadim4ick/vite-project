@@ -62,7 +62,7 @@ textarea:focus {
   }
   100% {
     /* transform: translateX(calc(-350px * 7)); */
-    transform: translateX(calc(-100% - 410px)); /* Конечная позиция */
+    transform: translateX(calc(-100% - 410px));
   }
 }
 

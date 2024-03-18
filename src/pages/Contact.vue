@@ -25,17 +25,15 @@
         alt="logoService.png"
       />
 
-      <div
-        class="mt-[15px] flex items-center justify-center gap-5 bg-white p-3"
-      >
+      <div class="mt-[15px] flex items-center justify-center gap-5 p-3">
         <a href="/">
-          <Instagram />
+          <Instagram customClasses="text-mainColor" />
         </a>
         <a href="/">
-          <Whatsapp />
+          <Whatsapp customClasses="text-mainColor" />
         </a>
 
-        <a href="/"> <Mail /></a>
+        <a href="/"> <Mail customClasses="text-mainColor" /></a>
       </div>
     </div>
   </section>
@@ -51,54 +49,46 @@
       </h2>
 
       <swiper
-        class="pt-[50px] max-laptop:pl-4 laptop:pl-[43px]"
+        class="pt-[50px]"
         :breakpoints="{
           320: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           465: {
-            slidesPerView: 1.6,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           615: {
-            slidesPerView: 2.2,
+            slidesPerView: 3,
             spaceBetween: 20,
-          },
-          750: {
-            slidesPerView: 2.7,
-            spaceBetween: 20,
-          },
-          991: {
-            slidesPerView: 3.1,
-            spaceBetween: 30,
           },
           1250: {
-            slidesPerView: 3.7,
+            slidesPerView: 4,
             spaceBetween: 35,
           },
         }"
       >
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
         <swiper-slide>
-          <img class="object-cover" src="/img/ourService.png" alt="" />
+          <img class="mx-auto object-cover" src="/img/ourService.png" alt="" />
         </swiper-slide>
       </swiper>
     </div>

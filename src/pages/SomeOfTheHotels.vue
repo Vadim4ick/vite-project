@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-[120px] pt-headerHeight text-black">
+  <section class="pb-[120px] pt-headerHeight">
     <div class="mx-auto max-w-[1150px] px-4">
       <h2
         class="text-center font-semibold uppercase max-tablet:text-[18px] tablet:text-[23px]"
@@ -37,12 +37,11 @@
                 <p class="text-[18px] uppercase">Lorem</p>
                 <p class="text-[18px] uppercase">Lorem, ipsum</p>
 
-                <button class="text-[18px] font-semibold uppercase">
+                <button class="pt-4 text-[18px] font-semibold uppercase">
                   Book your room
                 </button>
               </div>
             </article>
-
             <article class="inline-flex flex-col items-center gap-[10px]">
               <img
                 class="h-[240px] w-[240px] object-cover"
@@ -54,12 +53,11 @@
                 <p class="text-[18px] uppercase">Lorem</p>
                 <p class="text-[18px] uppercase">Lorem, ipsum</p>
 
-                <button class="text-[18px] font-semibold uppercase">
+                <button class="pt-4 text-[18px] font-semibold uppercase">
                   Book your room
                 </button>
               </div>
             </article>
-
             <article class="inline-flex flex-col items-center gap-[10px]">
               <img
                 class="h-[240px] w-[240px] object-cover"
@@ -71,12 +69,11 @@
                 <p class="text-[18px] uppercase">Lorem</p>
                 <p class="text-[18px] uppercase">Lorem, ipsum</p>
 
-                <button class="text-[18px] font-semibold uppercase">
+                <button class="pt-4 text-[18px] font-semibold uppercase">
                   Book your room
                 </button>
               </div>
             </article>
-
             <article class="inline-flex flex-col items-center gap-[10px]">
               <img
                 class="h-[240px] w-[240px] object-cover"
@@ -88,24 +85,7 @@
                 <p class="text-[18px] uppercase">Lorem</p>
                 <p class="text-[18px] uppercase">Lorem, ipsum</p>
 
-                <button class="text-[18px] font-semibold uppercase">
-                  Book your room
-                </button>
-              </div>
-            </article>
-
-            <article class="inline-flex flex-col items-center gap-[10px]">
-              <img
-                class="h-[240px] w-[240px] object-cover"
-                src="/img/ourService.png"
-                alt=""
-              />
-
-              <div class="flex flex-col items-center px-2">
-                <p class="text-[18px] uppercase">Lorem</p>
-                <p class="text-[18px] uppercase">Lorem, ipsum</p>
-
-                <button class="text-[18px] font-semibold uppercase">
+                <button class="pt-4 text-[18px] font-semibold uppercase">
                   Book your room
                 </button>
               </div>
@@ -130,7 +110,7 @@
                 <p class="text-[18px] uppercase">Lorem</p>
                 <p class="text-[18px] uppercase">Lorem, ipsum</p>
 
-                <button class="text-[18px] font-semibold uppercase">
+                <button class="pt-4 text-[18px] font-semibold uppercase">
                   Book your room
                 </button>
               </div>
@@ -147,7 +127,7 @@
                 <p class="text-[18px] uppercase">Lorem</p>
                 <p class="text-[18px] uppercase">Lorem, ipsum</p>
 
-                <button class="text-[18px] font-semibold uppercase">
+                <button class="pt-4 text-[18px] font-semibold uppercase">
                   Book your room
                 </button>
               </div>
@@ -164,7 +144,7 @@
                 <p class="text-[18px] uppercase">Lorem</p>
                 <p class="text-[18px] uppercase">Lorem, ipsum</p>
 
-                <button class="text-[18px] font-semibold uppercase">
+                <button class="pt-4 text-[18px] font-semibold uppercase">
                   Book your room
                 </button>
               </div>
@@ -181,24 +161,7 @@
                 <p class="text-[18px] uppercase">Lorem</p>
                 <p class="text-[18px] uppercase">Lorem, ipsum</p>
 
-                <button class="text-[18px] font-semibold uppercase">
-                  Book your room
-                </button>
-              </div>
-            </article>
-
-            <article class="inline-flex flex-col items-center gap-[10px]">
-              <img
-                class="h-[240px] w-[240px] object-cover"
-                src="/img/ourService.png"
-                alt=""
-              />
-
-              <div class="flex flex-col items-center px-2">
-                <p class="text-[18px] uppercase">Lorem</p>
-                <p class="text-[18px] uppercase">Lorem, ipsum</p>
-
-                <button class="text-[18px] font-semibold uppercase">
+                <button class="pt-4 text-[18px] font-semibold uppercase">
                   Book your room
                 </button>
               </div>

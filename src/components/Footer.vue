@@ -36,15 +36,15 @@
         class="flex items-center justify-between text-[14px] text-white max-tablet:flex-col max-tablet:gap-4 max-tablet:pb-4 tablet:h-[50px] tablet:gap-2"
       >
         <div class="flex gap-[20px]">
-          <span class="uppercase">T&S</span>
-          <span class="uppercase">REFUND POLICY</span>
+          <a href="javascript:void(0)" class="uppercase">T&S</a>
+          <a href="javascript:void(0)" class="uppercase">REFUND POLICY</a>
         </div>
 
-        <span>© 2024 VOLK | ALL RIGHTS RESERVED</span>
+        <a href="javascript:void(0)">© 2024 VOLK | ALL RIGHTS RESERVED</a>
 
         <div class="flex gap-[20px]">
-          <span>PRIVACY POLICY</span>
-          <span>REVIEWS</span>
+          <a href="javascript:void(0)">PRIVACY POLICY</a>
+          <a href="javascript:void(0)">REVIEWS</a>
         </div>
       </div>
     </div>
