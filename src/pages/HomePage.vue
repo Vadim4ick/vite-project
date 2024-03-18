@@ -146,62 +146,112 @@
         </p>
       </div>
 
-      <div class="test flex items-center gap-[35px] overflow-hidden pt-[55px]">
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/belmond.png"
-          srcset="/img/logos/belmond@2x.png 2x"
-          alt=""
-        />
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/elite.png"
-          srcset="/img/logos/elite@2x.png 2x"
-          alt=""
-        />
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/lata.png"
-          srcset="/img/logos/lata@2x.png 2x"
-          alt=""
-        />
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/logo.png"
-          srcset="/img/logos/logo@2x.png 2x"
-          alt=""
-        />
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/logoBlue.png"
-          srcset="/img/logos/logoBlue@2x.png 2x"
-          alt=""
-        />
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/luxury.png"
-          srcset="/img/logos/luxury@2x.png 2x"
-          alt=""
-        />
+      <div class="relative h-[250px] overflow-hidden">
+        <div
+          class="partners absolute left-0 top-[55px] flex w-full items-center gap-[100px]"
+        >
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/belmond.png"
+            srcset="/img/logos/belmond@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/elite.png"
+            srcset="/img/logos/elite@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/lata.png"
+            srcset="/img/logos/lata@2x.png 2x"
+            alt=""
+          />
 
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/membership.png"
-          srcset="/img/logos/membership@2x.png 2x"
-          alt=""
-        />
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/prefered.png"
-          srcset="/img/logos/prefered@2x.png 2x"
-          alt=""
-        />
-        <img
-          class="max-w-[350px] object-contain"
-          src="/img/logos/virtuoso.png"
-          srcset="/img/logos/virtuoso@2x.png 2x"
-          alt=""
-        />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/logoBlue.png"
+            srcset="/img/logos/logoBlue@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/luxury.png"
+            srcset="/img/logos/luxury@2x.png 2x"
+            alt=""
+          />
+
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/membership.png"
+            srcset="/img/logos/membership@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/prefered.png"
+            srcset="/img/logos/prefered@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/virtuoso.png"
+            srcset="/img/logos/virtuoso@2x.png 2x"
+            alt=""
+          />
+
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/belmond.png"
+            srcset="/img/logos/belmond@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/elite.png"
+            srcset="/img/logos/elite@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/lata.png"
+            srcset="/img/logos/lata@2x.png 2x"
+            alt=""
+          />
+
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/logoBlue.png"
+            srcset="/img/logos/logoBlue@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/luxury.png"
+            srcset="/img/logos/luxury@2x.png 2x"
+            alt=""
+          />
+
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/membership.png"
+            srcset="/img/logos/membership@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/prefered.png"
+            srcset="/img/logos/prefered@2x.png 2x"
+            alt=""
+          />
+          <img
+            class="w-[200px] shrink-0 object-contain"
+            src="/img/logos/virtuoso.png"
+            srcset="/img/logos/virtuoso@2x.png 2x"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   </section>

@@ -42,30 +42,15 @@ textarea:focus {
   }
 }
 
-/* animation logos */
-/* @keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-280px * 7));
-  }
-} */
-
-/* .test {
-  animation: scroll 10s linear infinite;
-} */
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    /* transform: translateX(calc(-350px * 7)); */
-    transform: translateX(calc(-100% - 410px));
+    transform: translateX(calc(-300px * 8));
   }
 }
 
-.test {
-  animation: scroll 10s linear infinite;
+.partners {
+  animation: scroll 15s linear infinite;
 }
